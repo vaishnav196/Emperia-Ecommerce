@@ -1,0 +1,173 @@
+/* btn & hover */
+
+#button {
+  color: #1dbfc1;
+  border: 1px solid #1dbfc1;
+  transition: all 0.5s ease;
+}
+
+#button:hover {
+  color: white;
+  background-color: #1dbfc1;
+}
+
+/* cart  */
+
+.cart {
+  font-size: 30px;
+}
+
+.btn .badge {
+  top: 6px !important;
+}
+
+.cart-empty {
+  border-top: 3px solid black;
+  background-color: rgb(242, 247, 247);
+}
+
+.add-to-cart {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.add-to-cart table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.add-to-cart th {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.add-to-cart tr {
+  /* padding: 10px; */
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.add-to-cart td {
+  padding: 10px;
+}
+
+.add-to-cart th {
+  background-color: rgb(247, 247, 247);
+}
+
+/* checkout */
+.checkout .t1 td,th{
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.checkout .t1,.t2{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.checkout .t2 tr{
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+
+/* products */
+
+.filter-sort{
+  border:1px dotted;
+  padding: 10px;
+  background-color: rgb(242, 253, 253);
+  font-size: 18px;
+
+}
+
+.delete-btn {
+  color: red;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.img-cart{
+  width: 5rem;
+  height: 5rem;
+}
+
+.bg-blue {
+  background-color: rgb(242, 253, 253);
+}
+
+.qnty-btn {
+  width: 100px;
+  cursor: pointer;
+  border: 1px solid black;
+  color: #111;
+  padding: 5px 10px;
+  margin: auto;
+}
+
+.inc-btn,.dec-btn{
+  font-size: 24;
+  padding: 5px 20px;
+}
+
+.product-card {
+  width: 285px;
+}
+
+@media screen and (max-width: 900px) {
+  .product-card {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .product-card {
+    width: 212px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .product-card {
+    width: 187px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .product-card {
+    width: 160px;
+  }
+}
+
+/* pagination */
+
+.page-btn{
+  padding: 10px 14px;
+  border: 1px solid black;
+  background-color: rgb(242, 253, 253);
+}
+.page-btn:hover{
+  background-color: #111;
+  color: #1dbfc1;
+}
+
+.page-num-btn{
+  padding: 10px 18px;
+  margin: 0px 5px;
+  border: 1px solid black;
+  background-color: rgb(242, 253, 253);
+}
+.page-num-btn:hover{
+  background-color: #111;
+  color: #1dbfc1;
+}
+.page-num-btn.active {
+  background-color: #111;
+  color: #1dbfc1;
+}
