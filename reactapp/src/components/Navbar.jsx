@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 
 export default function Navbar() {
   const getdata = useSelector((state) => state.cartreducer.carts);
-  // console.log(getdata);
+ 
 
   return (
     <header className="sticky-top">
