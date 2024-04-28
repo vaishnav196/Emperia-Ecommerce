@@ -19,7 +19,7 @@ export default function InnerDetails() {
 
   const compare = () => {
     let comparedata = getdata.filter((e) => {
-      return e.id == id;
+      return e.id === id;
     });
     setProducts(comparedata);
   };
