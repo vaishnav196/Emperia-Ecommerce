@@ -230,8 +230,8 @@ export default function Navbar() {
           </div>
 
           <Link to="/cart" type="button" className="btn  position-relative">
-            <i className="fa-solid fa-cart-shopping cart"></i>
-            <span className="position-absolute top-10 start-90 translate-middle badge rounded-pill bg-danger">
+            <i className="fa-solid fa-cart-shopping cart "></i>
+            <span className="position-absolute top-10 start-90 translate-middle badge rounded-pill bg-info">
               {getdata.length}
               <span className="visually-hidden">unread messages</span>
             </span>
