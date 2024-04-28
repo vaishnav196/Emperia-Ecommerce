@@ -26,10 +26,10 @@
 
 .dropdown-content{
   border-radius: 0;
-  padding: 0px;
+}
+.dropdown-divider{
   margin: 0px;
 }
-
 
 /* Lines of the Toggler */
 .toggler-icon{
