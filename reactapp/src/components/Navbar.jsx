@@ -219,7 +219,7 @@ export default function Navbar() {
                     <button
                       type="button"
                       id="button"
-                      className="btn btn-sm  px-3 py-2 py-lg-1 rounded-pill text-uppercase fw-semibold"
+                      className="btn btn-md px-3 py-2 py-lg-1 rounded-pill text-uppercase fw-semibold"
                     >
                       Contact Us
                     </button>
