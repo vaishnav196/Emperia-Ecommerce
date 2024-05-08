@@ -23,5 +23,8 @@ Ecommerce
 
 ![Screenshot 2024-05-08 161519](https://github.com/vaishnav196/Emperia-Ecommerce/assets/107029372/27f4db45-ab90-406c-93e1-7e9d7e523542)
 
+![Screenshot 2024-05-08 161840](https://github.com/vaishnav196/Emperia-Ecommerce/assets/107029372/23d26048-53b6-4317-ad80-67621c6d0137)
+
+
 
 
