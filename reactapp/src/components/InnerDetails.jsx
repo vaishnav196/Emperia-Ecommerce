@@ -76,7 +76,7 @@ export default function InnerDetails() {
                     >
                       -
                     </span>
-                    <span style={{ fontSize: 22 }}>{ele.qnty}</span>
+                    <span style={{ fontSize: 26 }}>{ele.qnty}</span>
                     <span className="dec-btn" onClick={() => send(ele)}>
                       +
                     </span>
