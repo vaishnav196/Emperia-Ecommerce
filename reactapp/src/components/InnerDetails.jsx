@@ -64,7 +64,7 @@ export default function InnerDetails() {
                   />
 
                   <p className="me-2  fs-5 mb-5">
-                    MRP <b className="ms-2 fs-4"> ₹{ele.price}.00</b>{" "}
+                    MRP <b className="ms-2 fs-4"> ₹{ele.price}.0000</b>{" "}
                   </p>
 
                   <div className="d-flex justify-content-center align-items-center qnty-btn">
