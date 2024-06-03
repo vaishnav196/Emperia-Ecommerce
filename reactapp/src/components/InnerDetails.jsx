@@ -59,7 +59,7 @@ export default function InnerDetails() {
                   <img
                     alt=""
                     src={ele.image}
-                    className="mb-5"
+                    className="mb-4"
                     style={{ height: "440px" }}
                   />
 
