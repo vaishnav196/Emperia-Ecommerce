@@ -63,7 +63,7 @@ export default function InnerDetails() {
                     style={{ height: "440px" }}
                   />
 
-                  <p className="me-2  fs-5 mb-5">
+                  <p className="me-2  fs-5 mb-4">
                     MRP <b className="ms-2 fs-4"> ₹{ele.price}.0000</b>{" "}
                   </p>
 
